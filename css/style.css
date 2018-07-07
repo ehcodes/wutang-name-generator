@@ -1,0 +1,33 @@
+
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+	clear: both;
+}
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#container {
+	width: 960px;
+	margin: auto;
+}
